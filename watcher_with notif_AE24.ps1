@@ -1,3 +1,9 @@
+#YOKO
+#2025/08/08
+#TAKE YOUR OWN RISK 
+
+
+
 # --- CONFIGURATION ---
 # 1. Set the base path for your render farm folders.
 $basePath = "your path"
