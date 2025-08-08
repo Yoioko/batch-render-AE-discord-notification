@@ -1,6 +1,6 @@
 # --- CONFIGURATION ---
 # 1. Set the base path for your render farm folders.
-$basePath = "\\3DSERVER01\RenderLogs\Render JOBS"
+$basePath = "your path"
 
 # 2. Set the folder names.
 $jobsFolder = Join-Path -Path $basePath -ChildPath "jobs_AE24"
@@ -10,7 +10,7 @@ $inProgressFolder = Join-Path -Path $basePath -ChildPath "InProgress"
 $aerenderPath = "C:\Program Files\Adobe\Adobe After Effects 2024\Support Files\aerender.exe"
 
 # 4. Set your Discord Webhook URL
-$webhookUrl = "https://discord.com/api/webhooks/1402919843665285140/p9YUFP0_x79p8AvqoFd21bBu95DxmKq2YydyJ-Qk2QTwq6R2hYPjcYQci338RCJnU1N4"
+$webhookUrl = "your discord webhook"
 
 # --- DISCORD NOTIFICATION FUNCTION ---
 function Send-DiscordNotification {
